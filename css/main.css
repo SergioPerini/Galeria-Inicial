@@ -1,0 +1,68 @@
+*{
+    border: 1px solid salmon;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.mini{
+    height: 80px;
+}
+#showinf{
+    display: none;
+}
+#ocuinf{
+    display: none;
+    position: absolute;
+    right: 1rem;
+    top: 10rem;
+}
+#verinf{
+    position: absolute;
+    right: 1rem;
+    top: 10rem;
+}
+.botones{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+.boton{
+    border: 2px solid rgb(24,24,24);
+    padding: .8rem;
+    background-color: #fff;
+}
+.principal{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+#cajap{
+    height: 25rem;
+    width: auto;
+}
+.container2{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.noche{
+    position: absolute;
+    top: 7rem;
+    left: 1rem;
+}
+.sepia{
+    position: absolute;
+    top: 12rem;
+    left: 1rem;
+}
+.normal{
+    position: absolute;
+    left: 1rem;
+    top: 2rem;
+}

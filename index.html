@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NOTA</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div class="estilos">
+        <button class="noche boton" id="noche" onclick="noche()">MODO NOCHE</button>
+        <button class="sepia boton" id="sepia" onclick="sepia()">MODO SEPIA</button>
+        <button class="normal boton" id="normal" onclick="normal()">MODO NORMAL</button>
+    </div>
+
+
+    <div id="verinf">
+        <button class="verinformacion boton" id="verinformacion" onclick="cambiartexto()">VER INFORMACIÓN</button>
+    </div>
+    <div id="ocuinf">
+        <button class="ocultarinf boton" id="ocultarinf" onclick="limpiartexto()">OCULTAR INFORMACIÓN</button>
+    </div>
+
+
+
+    <div class="principal">
+        <img id="cajap" src="" alt="">
+    </div>
+    <div id="showinf">
+        <p id="t1" class="texto">La Libertad guiando al pueblo. Eugène Delacroix, 1830</p>
+        <p id="t2" class="texto">El 3 de mayo en Madrid. Francisco de Goya, 1814</p>
+        <p id="t3" class="texto">El guernica. Pablo Picasso, 1937</p>
+        <p id="t4" class="texto">La creación de Adán. Miguel Ángel, 1511</p>
+        <p id="t5" class="texto">La tentación de San Antonio. Salvador Dalí, 1946</p>
+        <p id="t6" class="texto">Los amantes. Renné Magritte, 1928</p>
+        <p id="t7" class="texto">Las meninas. Diego Velázquez, 1656</p>
+        <p id="t8" class="texto">La persistencia de la memoria. Salvador Dalí, 1931</p>
+        <p id="t9" class="texto">La noche estrellada. Vincent van Gogh, 1889</p>
+    </div>
+
+
+    <div class="container">
+        <div class="container2">
+            <img src="/imagenes_galeria/1.jpg" id="img1" class="mini" onclick="cambiarimagen(this.src)">
+            <img src="/imagenes_galeria/2.jpg" id="img2" class="mini" onclick="cambiarimagen(this.src)">
+            <img src="/imagenes_galeria/3.jpg" id="img3" class="mini" onclick="cambiarimagen(this.src)">
+            <img src="/imagenes_galeria/4.jpg" id="img4" class="mini" onclick="cambiarimagen(this.src)">
+            <img src="/imagenes_galeria/5.jpg" id="img5" class="mini" onclick="cambiarimagen(this.src)">
+            <img src="/imagenes_galeria/6.jpg" id="img6" class="mini" onclick="cambiarimagen(this.src)">
+            <img src="/imagenes_galeria/7.jpg" id="img7" class="mini" onclick="cambiarimagen(this.src)">
+            <img src="/imagenes_galeria/8.jpg" id="img8" class="mini" onclick="cambiarimagen(this.src)">
+            <img src="/imagenes_galeria/9.jpg" id="img9" class="mini" onclick="cambiarimagen(this.src)">
+        </div>
+
+        <div class="botones">
+            <button class="boton1 boton" id="boton1" onclick="anterior()">ANTERIOR</button>
+            <button class="boton2 boton" id="boton2" onclick="siguiente()">SIGUIENTE</button>
+        </div>
+    </div>
+
+
+
+    <script src="js/code.js"></script>
+
+</body>
+
+</html>
